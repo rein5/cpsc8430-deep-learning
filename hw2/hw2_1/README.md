@@ -5,9 +5,9 @@ This folder contains a python script to run the seq2seq model on a given test di
 
 Usage: 
 
-	python model_script.py testing_data_folder/ [output_file.txt]
+	python model_seq2seq.py testing_data_folder/ [output_file.txt]
 
-Alternatively, the script seq2seq.sh can be used with identical arguments. 
+Alternatively, the script hw2_seq2seq.sh can be used with identical arguments. 
 
 
 The output file can be evaluated using the bleu_eval.py script provided for the assignment. 
@@ -23,5 +23,7 @@ and the subfolder:
 
 containing the numpy files for the input feature vectors. 
 
+Trained model file: s2vt_e40 
+Vocabulary file: vocabulary.pickle
 
 Giovanni Martino
