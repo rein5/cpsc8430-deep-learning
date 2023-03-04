@@ -12,12 +12,13 @@ The output file can then be evaluated using the bleu_eval.py script provided for
 
 Note: it's assumed that the specified data_folder/ contains the file: 
 
-	testing_data/id.txt
+	data_folder/testing_data/id.txt
 
-and the subfolder: 
+and the folder: 
 
-	testing_data/feat/
+	data_folder/testing_data/feat/
 
 containing the numpy files for the input feature vectors. 
 
-- Giovanni Martino
+
+Giovanni Martino
