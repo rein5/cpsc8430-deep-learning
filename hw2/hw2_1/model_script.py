@@ -14,7 +14,7 @@ import math
 import sys
 
 if len(sys.argv) < 2 or len(sys.argv) > 3:
-    print("ERROR. Usage: python model_script.py data_folder/ [output_file.txt]")
+    print("ERROR. Usage: python model_script.py data_folder [output_file.txt]")
     exit()
 
 # read input from cli
@@ -25,17 +25,17 @@ if len(sys.argv) == 3:
     output_file = sys.argv[2]
 
 # data folders and files
-training_labels = data_folder + 'training_label.json'
-testing_labels = data_folder + 'testing_label.json'
-training_features = data_folder + 'training_data/feat/'
-testing_features = data_folder + 'testing_data/feat/'
+training_labels = data_folder + '/training_label.json'
+testing_labels = data_folder + '/testing_label.json'
+training_features = data_folder + '/training_data/feat/'
+testing_features = data_folder + '/testing_data/feat/'
 
 # vocabulary and trained model
 model_file = "s2vt_e40"
 vocabulary_file = "vocabulary.pickle"
 
 # the model will be evaluated using the following ID file
-test_id_file = data_folder + 'testing_data/id.txt'
+test_id_file = data_folder + '/testing_data/id.txt'
 
 # model hyperparameters 
 max_caption_words = 20
