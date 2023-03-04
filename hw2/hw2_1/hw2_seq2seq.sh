@@ -1,1 +1,1 @@
-python model_script.py $1 $2
+python model_seq2seq.py $1 $2

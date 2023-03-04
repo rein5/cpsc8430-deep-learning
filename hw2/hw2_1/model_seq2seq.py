@@ -14,7 +14,7 @@ import math
 import sys
 
 if len(sys.argv) < 2 or len(sys.argv) > 3:
-    print("ERROR. Usage: python model_script.py testing_data_folder [output_file.txt]")
+    print("ERROR. Usage: python model_seq2seq.py testing_data_folder [output_file.txt]")
     exit()
 
 # read input from cli
