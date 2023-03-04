@@ -7,7 +7,10 @@ Usage:
 
 	python model_script.py data_folder/ [output_file.txt]
 
-The output file can then be evaluated using the bleu_eval.py script provided for the assignment. 
+Alternatively, the script seq2seq.sh can be used with identical arguments. 
+
+
+The output file can be evaluated using the bleu_eval.py script provided for the assignment. 
 
 
 Note: it's assumed that the specified data_folder/ contains the file: 
