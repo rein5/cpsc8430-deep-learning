@@ -24,6 +24,7 @@ and the subfolder:
 containing the numpy files for the input feature vectors. 
 
 Trained model file: s2vt_e40 
+
 Vocabulary file: vocabulary.pickle
 
 Giovanni Martino
