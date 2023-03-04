@@ -1,0 +1,23 @@
+name: ML_py38
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow
+  - tensorflow-gpu
+  - keras
+  - keras-gpu
+  - pandas
+  - matplotlib
+  - notebook
+  - scikit-learn
+  - pydot
+  - pytorch
+  - cudatoolkit=11.6
+  - torchvision
+  - torchaudio
+  - torchinfo
+  - spyder
+  - tabulate
+prefix: C:\Users\FJ\.conda\envs\ML_py38
