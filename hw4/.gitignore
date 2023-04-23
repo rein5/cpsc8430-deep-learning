@@ -1,0 +1,9 @@
+cifar10/
+train_generated_images_dcgan/
+train_generated_images_wgan/
+train_generated_images_acgan_fake/
+train_generated_images_acgan_real/
+bert-base-uncased-finetuned-spoken-squad/
+report/
+
+HW4.pptx
